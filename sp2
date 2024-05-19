@@ -1,0 +1,9 @@
+chatbot = {}
+chatbot["animal"] = "кот"
+chatbot["color"] = "серый"
+chatbot["food"] = "корм"
+chatbot["planet"] = "марс"
+print("Привет! Спроси, какие у меня любимое животное, цвет, еда или планета!")
+key = input("Какое у чат-бота любимое...")
+val = chatbot[key]
+print(f"Мое любимое {key} - это {val}!")
